@@ -1,5 +1,7 @@
 {
-  "name": "responsi2",
-  "integrations": {},
+  "name": "appbaru",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
