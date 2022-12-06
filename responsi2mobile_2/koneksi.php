@@ -6,6 +6,6 @@ header('Access-Control-Allow-Methods: PUT, GET, HEAD, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, X-Requested-With');
 header('Content-Type: application/json; charset=utf-8');
 //membuat variable koneksi ke mysql
-$koneksi = mysqli_connect('localhost','root','','api') or die ('koneksi gagal');
+$koneksi = mysqli_connect('localhost','root','','responsi2mobile_2') or die ('koneksi gagal');
 
 ?>
