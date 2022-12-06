@@ -5,5 +5,5 @@ header('Access-Control-Allow-Methods: PUT, GET, HEAD, POST, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, X-Requested-With');
 header('Content-Type: application/json; charset=utf-8');
 
-$con = mysqli_connect('localhost', 'root', '', 'backend') or die('koneksi gagal');
+$con = mysqli_connect('localhost', 'root', '', 'responsi2mobile') or die('koneksi gagal');
 ?>
